@@ -16,9 +16,9 @@
         <form id="kaverilista">
             <label for="nimi">Syötä nimi:</label>
             <input type="text" id="nimi" name="nimi">
-            <input type="submit" id="lisää" name="lisää" value="Lisää kaveri">
-            <input type="submit" id="poista" name="poista" value="Poista kaveri">
-            <input type="submit" id="järjestä" name="järjestä" value="Järjestä kaverit">
+            <input type="button" onclick="lisaa()" value="Lisää kaveri">
+            <input type="button" onclick="poista()" value="Poista kaveri">
+            <input type="button" onclick="jarjesta()" value="Järjesta kaverit">
         </form>
 
         <ol id="lista"></ol>
